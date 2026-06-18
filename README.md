@@ -26,11 +26,34 @@ This project generates a **professional 8-slide PowerPoint presentation** analyz
 
 ## Setup & Usage
 
-```bash
-# Install dependencies
-npm install
+### 1. Install dependencies (one-time)
 
-# Generate the presentation
+```bash
+pip3 install scikit-learn matplotlib joblib openpyxl pandas numpy
+```
+
+```bash
+npm install
+```
+
+### 2. Train the model & score all leads
+
+```bash
+cd /Users/sonusingh/Emitrr-Assignment
+python3 lead_scoring_model.py
+```
+
+### 3. Score new leads (after training)
+
+```bash
+python3 score_new_leads.py
+```
+
+Or use it programmatically in any Python script.
+
+### 4. Generate the presentation
+
+```bash
 node generate_pptx.js
 ```
 
