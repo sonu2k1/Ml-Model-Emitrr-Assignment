@@ -1,0 +1,102 @@
+{
+  "best_model": "Gradient Boosting",
+  "roc_auc_cv": 0.9991,
+  "n_samples": 1000,
+  "n_features": 19,
+  "n_customers": 67,
+  "customer_rate": 0.067,
+  "score_distribution": {
+    "1": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0017
+    },
+    "2": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0019
+    },
+    "3": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0021
+    },
+    "4": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0021
+    },
+    "5": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0022
+    },
+    "6": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0023
+    },
+    "7": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0025
+    },
+    "8": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0058
+    },
+    "9": {
+      "count": 100,
+      "actual_customers": 0,
+      "avg_probability": 0.0357
+    },
+    "10": {
+      "count": 100,
+      "actual_customers": 67,
+      "avg_probability": 0.6597
+    }
+  },
+  "top_features": [
+    {
+      "Feature": "Industry_ConvRate",
+      "Importance": 0.2996091513528023
+    },
+    {
+      "Feature": "State_ConvRate",
+      "Importance": 0.2833628029368633
+    },
+    {
+      "Feature": "Demo_x_Employees",
+      "Importance": 0.13129904298242162
+    },
+    {
+      "Feature": "Demo_x_Revenue",
+      "Importance": 0.12707198224587135
+    },
+    {
+      "Feature": "Source_ConvRate",
+      "Importance": 0.06054669720404068
+    },
+    {
+      "Feature": "Industry_Encoded",
+      "Importance": 0.02861351172008463
+    },
+    {
+      "Feature": "Source_Encoded",
+      "Importance": 0.021052783420335612
+    },
+    {
+      "Feature": "Monthly_Revenue_Potential",
+      "Importance": 0.009035621050618458
+    },
+    {
+      "Feature": "Days_Since_Created",
+      "Importance": 0.006388539401430074
+    },
+    {
+      "Feature": "Revenue_Per_Employee",
+      "Importance": 0.006285548079276154
+    }
+  ]
+}
